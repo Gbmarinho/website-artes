@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.header-parallax-video {
+    margin: 0;
+    position: relative;
+    background-color: #E5E3E5;
+   height: auto;
+  }
+
+  
+.video-parallax {
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
+.header-parallax {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  top: -30px;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -9999;
+}
+.content-header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+  z-index: 1;
+  background-size: cover;
+}
+.header-logo{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 85px;
+  height: 85px;
+  background-color: black;
+  color: white;
+  border-radius: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  text-decoration: none;
+}
+.header-logo h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  font-weight: 120;
+}
+.header-secoes, .header-projetos{
+  display: flex;
+  margin-top: 30px;
+  gap: 13vw;
+}
+.header-secoes h1 a, .header-projetos h1 a{
+  cursor: pointer;
+  transition: 0.3s;
+  color: black;
+  font-weight: 200;
+}
+.header-secoes h1 a:hover, .header-projetos h1 a:hover{
+  color: red;
+}
+
